@@ -2,3 +2,54 @@ body{
     margin: 0;
     padding: 0;
 }
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 32px 28px 28px;
+    background: #d8eacc;
+    transition: 0.5s;
+}
+.header:hover{
+    background: #fff;
+}
+.nav-left-content{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+.nav-right-content{
+    display: flex;
+    align-items: center;
+}
+.nav-left-content li{
+    padding: 10px;
+    color: #000;
+    font-weight: 600;
+}
+.btn-login{
+    padding: 12px 32px 12px 32px;
+    cursor: pointer;
+    border: 1px solid #000;
+    font-weight: 600;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.btn-sign-up{
+    padding: 12px 32px 12px 32px;
+    cursor: pointer;
+    border: none;
+    background: #007c89;
+    color: #fff;
+    font-weight: 600;
+}
+.search{
+    margin-left: 16px;
+}
+.btn-sign-up:hover{
+    background: #004e56;
+}
+.btn-login:hover{
+    background:rgba(36,28,21,.1);
+}
