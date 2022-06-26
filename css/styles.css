@@ -7,7 +7,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 28px 32px 28px 28px;
-    background: #d8eacc;
+    background: #ffe01b;
     transition: 0.5s;
 }
 .header:hover{
@@ -27,6 +27,17 @@ body{
     padding: 10px;
     color: #000;
     font-weight: 600;
+    cursor: pointer;
+}
+.nav-left-content li:hover{
+    color: #007c89;
+    text-decoration: underline;
+}
+.world_icon:hover{
+    cursor: pointer;
+}
+.search_icon:hover{
+    cursor: pointer;
 }
 .btn-login{
     padding: 12px 32px 12px 32px;
@@ -52,4 +63,27 @@ body{
 }
 .btn-login:hover{
     background:rgba(36,28,21,.1);
+}
+.header-section{
+    display: flex;
+    background: #ffe01b;
+    height: 590px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 180px;
+}
+.section-heading{
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 48px;
+}
+.header-para{
+    font-size: 24px;
+    line-height: 32px;
+    width: 382px;
+}
+.btn-header{
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
